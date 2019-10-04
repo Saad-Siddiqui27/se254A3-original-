@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="menu" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+   <children>
+      <VBox alignment="CENTER" cache="true" layoutX="200.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0" spacing="40.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="55.0">
+         <children>
+            <Button mnemonicParsing="false" text="General Activities" />
+            <Button mnemonicParsing="false" onAction="#switchToSales" text="Managing Sales" />
+            <Button mnemonicParsing="false" onAction="#switchToCustomers" text="Managing Customers" />
+            <Button mnemonicParsing="false" text="Managing Employees" />
+            <Button mnemonicParsing="false" onAction="#switchToProducts" text="Managing Products" />
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </VBox>
+   </children>
+</AnchorPane>
