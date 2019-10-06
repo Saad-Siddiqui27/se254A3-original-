@@ -9,7 +9,6 @@
    <children>
       <VBox alignment="CENTER" cache="true" layoutX="200.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0" spacing="40.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="55.0">
          <children>
-            <Button mnemonicParsing="false" text="General Activities" />
             <Button mnemonicParsing="false" onAction="#switchToSales" text="Managing Sales" />
             <Button mnemonicParsing="false" onAction="#switchToCustomers" text="Managing Customers" />
             <Button mnemonicParsing="false" text="Managing Employees" />

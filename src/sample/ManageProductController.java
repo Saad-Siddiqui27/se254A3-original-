@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -12,7 +13,7 @@ public class ManageProductController {
 
 
     @FXML
-    private ListView list;
+    private TableView list;
     @FXML private Pane _product;
 
 
