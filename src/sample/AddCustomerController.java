@@ -11,6 +11,23 @@ public class AddCustomerController {
 
     @FXML
     private Button Confirm;
+
+    public TextField getText1() {
+        return text1;
+    }
+
+    public void setText1(TextField text1) {
+        this.text1 = text1;
+    }
+
+    public TextField getText2() {
+        return text2;
+    }
+
+    public void setText2(TextField text2) {
+        this.text2 = text2;
+    }
+
     @FXML
     private TextField text1;
     @FXML

@@ -20,6 +20,7 @@ public class ManageSalesController {
     private ListView list;
 
 
+
     @FXML
     public void initialize(){
 
@@ -35,7 +36,6 @@ public class ManageSalesController {
 
     public void add(){
         try {
-
 
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AddSale.fxml"));
 
@@ -53,7 +53,7 @@ public class ManageSalesController {
 
 
     public void delete(){
-     if(list.getSelectionModel().getSelectedItem().toString()== "Flight"){
+     if(list.getSelectionModel().getSelectedItem().toString()=="Flight"){
          Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
          alert.setTitle("Delete");
          alert.setHeaderText("Cancelling flight will cost extra charges");
